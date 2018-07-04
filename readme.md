@@ -27,15 +27,3 @@ Afterwards, open a second Terminal window and run the [webpack development serve
 
 ```bash
 npm run dev
-
-
-## To start testing
-### Open Desktop app
-
-```bash
-./node_modules/.bin/cypress open
-
-### Run tests from command lines
-
-```bash
-cypress run --spec 'cypress/integration/<testname>'
