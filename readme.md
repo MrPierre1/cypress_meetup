@@ -31,7 +31,7 @@ npm run dev
 
 ## Testing
 
-##### Cypress.io
+##### [cypress.io](https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-Requirements)
 
 ### Run tests from Desktop app
 
