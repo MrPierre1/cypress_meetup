@@ -31,7 +31,7 @@ npm run dev
 
 ## Testing
 
-######## Cypress.io
+##### Cypress.io
 
 ### Run tests from Desktop app
 
