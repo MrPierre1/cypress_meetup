@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:8080/#!/",
+  "apiRoute": "http://localhost:3001",
+  "env": {
+     "api_server": "http://localhost:3001/",
+     "some": "value"
+   }
+}

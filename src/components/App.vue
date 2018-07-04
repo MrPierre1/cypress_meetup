@@ -8,7 +8,8 @@
         <li v-if="user.authenticated"><a v-link="'secretquote'">Secret Quote</a></li>
         <li v-if="user.authenticated"><a v-link="'login'" @click="logout()">Logout</a></li>
       </ul>
-    </div>    
+      <!-- <span>Welcome</span> -->
+    </div>
   </nav>
   <div class="container">
     <router-view></router-view>
