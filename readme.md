@@ -1,7 +1,7 @@
 # cypress_meetup
 
-Big thank you to Chenkie and Lukeoliff for puting this together. 
-Orignal code can be found here.[nodejs-jwt-authentication-sample](https://github.com/auth0/nodejs-jwt-authentication-sample), 
+Big thank you to Chenkie and Lukeoliff for puting this together.
+Orignal code can be found here.[nodejs-jwt-authentication-sample](https://github.com/auth0/nodejs-jwt-authentication-sample),
 
 ### Application: A NodeJS app that serves Chuck Norris quotes.
 
@@ -27,3 +27,15 @@ Afterwards, open a second Terminal window and run the [webpack development serve
 
 ```bash
 npm run dev
+
+
+## To start testing
+### Open Desktop app
+
+```bash
+./node_modules/.bin/cypress open
+
+### Run tests from command lines
+
+```bash
+cypress run --spec 'cypress/integration/<testname>'
