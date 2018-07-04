@@ -27,7 +27,3 @@ Afterwards, open a second Terminal window and run the [webpack development serve
 
 ```bash
 npm run dev
-
-## Run the tests
-
-1. 
