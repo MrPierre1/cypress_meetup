@@ -1,8 +1,9 @@
 # cypress_meetup
 
-# Vue.js JWT Authentication
+Big thank you to Chenkie and Lukeoliff for puting this together. 
+Orignal code can be found here.[nodejs-jwt-authentication-sample](https://github.com/auth0/nodejs-jwt-authentication-sample), 
 
-This example shows how to do JWT authentication in Vue.js apps. It uses Auth0's [nodejs-jwt-authentication-sample](https://github.com/auth0/nodejs-jwt-authentication-sample), a NodeJS backend that serves Chuck Norris quotes.
+### Application: A NodeJS app that serves Chuck Norris quotes.
 
 ## Installation
 
@@ -26,3 +27,7 @@ Afterwards, open a second Terminal window and run the [webpack development serve
 
 ```bash
 npm run dev
+
+## Run the tests
+
+1. 
