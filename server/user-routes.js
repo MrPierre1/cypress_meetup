@@ -60,9 +60,8 @@ function getUserScheme(req) {
 }
 
 app.get("/users", function (req, res) {
-  res.status(201).send({
-    users: users
-  });
+  console.log("respinse is", users);
+  res.status(201).send(users);
 });
 
 app.post("/users", function (req, res) {

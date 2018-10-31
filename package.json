@@ -15,7 +15,7 @@
     "babel-preset-stage-2": "^6.0.0",
     "babel-runtime": "^5.8.0",
     "css-loader": "^0.21.0",
-    "cypress": "^3.0.2",
+    "cypress": "^3.1.0",
     "style-loader": "^0.13.0",
     "vue-hot-reload-api": "^1.2.1",
     "vue-html-loader": "^1.0.0",
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.5",
+    "faker": "^4.1.0",
     "vue": "^1.0.7",
     "vue-resource": "^0.1.17",
     "vue-router": "^0.7.5"

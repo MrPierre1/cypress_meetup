@@ -1,0 +1,10 @@
+{
+  "user1": {
+  "username":  "Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)",
+  "password": "just2kl",
+  },
+  "newUser": {
+  "username": "Jeannie",
+  "password": "passsword",
+  }
+}

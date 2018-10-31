@@ -1,4 +1,10 @@
 // ***********************************************
+import faker from 'faker';
+var user = {
+  username: faker.internet.userName(),
+  password: faker.internet.password()
+}
+
 Cypress.Commands.add('login', (userType, options = {}) => {
 var apiRoute = "http://localhost:3001/"
   // this is an example of skipping your UI and logging in programmatically

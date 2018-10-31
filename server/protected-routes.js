@@ -6,7 +6,7 @@ var express = require('express'),
 var app = module.exports = express.Router();
 
 var jwtCheck = jwt({
-  secret: config.secret
+  secret: "ngEurope rocks!"
 });
 
 app.use('/api/protected', jwtCheck);
