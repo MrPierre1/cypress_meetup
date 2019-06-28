@@ -29,6 +29,7 @@ Afterwards, open a second Terminal window and run the [webpack development serve
 npm run dev
 ```
 
+Go to http://localhost:8080 to see the app running
 ## Testing
 
 ##### [cypress.io](https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-Requirements)
@@ -43,5 +44,5 @@ npm run dev
 ```bash
 cypress run --spec 'cypress/integration/<testname>'
 ```
-# CypressTests
+
 # CypressTests
